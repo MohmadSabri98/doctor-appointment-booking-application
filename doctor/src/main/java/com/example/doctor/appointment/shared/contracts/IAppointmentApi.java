@@ -10,5 +10,5 @@ import java.util.UUID;
 
 public interface IAppointmentApi {
     List<AppointmentApiResponseDTO> getAllDoctorUpCommingAppointment(int page, int limit, List<UUID> doctorSlotIds, LocalDateTime dateTime);
-    AppointmentResponseDTO updateAppointmentStatus(AppointmentStatusUpdateRequestDTO requestDTO);
+    AppointmentApiResponseDTO updateAppointmentStatus(AppointmentStatusUpdateRequestDTO requestDTO);
 }

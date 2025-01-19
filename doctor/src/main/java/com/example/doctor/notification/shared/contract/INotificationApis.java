@@ -1,4 +1,4 @@
-package com.example.doctor.notification.shared;
+package com.example.doctor.notification.shared.contract;
 
 import com.example.doctor.notification.shared.dtos.NotificationDto;
 

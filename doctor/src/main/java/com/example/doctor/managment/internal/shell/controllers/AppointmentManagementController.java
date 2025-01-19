@@ -1,11 +1,9 @@
 package com.example.doctor.managment.internal.shell.controllers;
 
-import com.example.doctor.appointment.internal.application.command.Dtos.AppointmentResponseDTO;
-import com.example.doctor.appointment.internal.application.command.updateApoppointmentStatus.AppointmentUpdateQueryDTO;
 import com.example.doctor.appointment.shared.dtos.AppointmentApiResponseDTO;
 import com.example.doctor.appointment.shared.dtos.AppointmentStatusUpdateRequestDTO;
-import com.example.doctor.managment.internal.core.inputports.IAppointmentManagement;
 import com.example.doctor.managment.internal.core.dtos.GetCommingAppointmentQuery;
+import com.example.doctor.managment.internal.core.inputports.IAppointmentManagement;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -28,7 +26,7 @@ public class AppointmentManagementController   {
 
 
     @PutMapping("/update-appointment-status")
-    public ResponseEntity<AppointmentResponseDTO> updateAppointmentStatus(@RequestBody AppointmentStatusUpdateRequestDTO requestDTO) {
+    public ResponseEntity<AppointmentApiResponseDTO> updateAppointmentStatus(@RequestBody AppointmentStatusUpdateRequestDTO requestDTO) {
 
         return ResponseEntity.ok(iAppointmentManagement.updateAppointmentStatus(requestDTO));
 

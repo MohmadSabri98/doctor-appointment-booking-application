@@ -10,6 +10,6 @@ import java.util.UUID;
 public interface IAppointmentManagement {
 
      List<AppointmentApiResponseDTO> getAllUpcommingAppointment(int page, int limit, UUID doctorID) ;
-     AppointmentResponseDTO updateAppointmentStatus(AppointmentStatusUpdateRequestDTO requestDTO);
+     AppointmentApiResponseDTO updateAppointmentStatus(AppointmentStatusUpdateRequestDTO requestDTO);
 
 }

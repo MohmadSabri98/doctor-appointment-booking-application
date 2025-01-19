@@ -1,6 +1,5 @@
 package com.example.doctor.managment.internal.core.service;
 
-import com.example.doctor.appointment.internal.application.command.Dtos.AppointmentResponseDTO;
 import com.example.doctor.appointment.shared.contracts.IAppointmentApi;
 import com.example.doctor.appointment.shared.dtos.AppointmentApiResponseDTO;
 import com.example.doctor.appointment.shared.dtos.AppointmentStatusUpdateRequestDTO;
@@ -31,7 +30,7 @@ private final IDoctorSlotService iDoctorSlotService;
     }
 
     @Override
-    public AppointmentResponseDTO updateAppointmentStatus(AppointmentStatusUpdateRequestDTO requestDTO) {
+    public AppointmentApiResponseDTO updateAppointmentStatus(AppointmentStatusUpdateRequestDTO requestDTO) {
         return iAppointmentApi.updateAppointmentStatus(requestDTO);
     }
 }

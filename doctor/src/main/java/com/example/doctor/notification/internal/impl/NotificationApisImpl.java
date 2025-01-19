@@ -1,6 +1,6 @@
 package com.example.doctor.notification.internal.impl;
 
-import com.example.doctor.notification.shared.INotificationApis;
+import com.example.doctor.notification.shared.contract.INotificationApis;
 import com.example.doctor.notification.shared.dtos.NotificationDto;
 import com.example.doctor.shared.domain.ILogger;
 import lombok.AllArgsConstructor;

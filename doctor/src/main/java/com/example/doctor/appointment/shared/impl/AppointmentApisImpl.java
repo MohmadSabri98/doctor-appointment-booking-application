@@ -28,7 +28,7 @@ public class AppointmentApisImpl  implements IAppointmentApi {
     }
 
     @Override
-    public AppointmentResponseDTO updateAppointmentStatus(AppointmentStatusUpdateRequestDTO requestDTO) {
+    public AppointmentApiResponseDTO updateAppointmentStatus(AppointmentStatusUpdateRequestDTO requestDTO) {
         AppointmentUpdateQueryDTO query = new AppointmentUpdateQueryDTO(
                 requestDTO.getAppointmentId(),
                 requestDTO.getStatus()

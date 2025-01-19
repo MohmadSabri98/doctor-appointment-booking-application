@@ -4,7 +4,7 @@ import com.example.doctor.appointment.internal.application.eventHandlers.INotify
 import com.example.doctor.appointment.internal.application.queries.getAllDoctorAvalibleSlots.DoctorSlotResponseDTO;
 import com.example.doctor.appointment.internal.infrastructure.gateway.DoctorSlotsGateway;
 import com.example.doctor.appointment.shared.dtos.AppointmentCreatedNotificationDto;
-import com.example.doctor.notification.shared.INotificationApis;
+import com.example.doctor.notification.shared.contract.INotificationApis;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
