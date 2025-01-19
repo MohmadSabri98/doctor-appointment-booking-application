@@ -25,3 +25,4 @@ Before starting, ensure you have the following installed:
    CREATE SCHEMA IF NOT EXISTS slot;
 CREATE SCHEMA IF NOT EXISTS appointment;
 
+
