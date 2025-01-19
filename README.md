@@ -23,6 +23,6 @@ Before starting, ensure you have the following installed:
    ```sql
    CREATE DATABASE Doctor;
    CREATE SCHEMA IF NOT EXISTS slot;
-CREATE SCHEMA IF NOT EXISTS appointment;
+   CREATE SCHEMA IF NOT EXISTS appointment;
 
 
