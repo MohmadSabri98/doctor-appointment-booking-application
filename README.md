@@ -10,7 +10,7 @@ Before starting, ensure you have the following installed:
 
 - **PostgreSQL**: Database server to store application data.
 - **Java**: Version 17 or higher is recommended.
-- **Gradle or Maven**: To build and run the project.
+- **Gradle **: To build and run the project.
 - **Spring Boot**: No additional setup required for Spring Boot.
 
 ---
