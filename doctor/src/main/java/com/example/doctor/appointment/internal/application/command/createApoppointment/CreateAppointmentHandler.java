@@ -26,7 +26,7 @@ public class CreateAppointmentHandler extends CommandHandler<AppointmentCreateQu
                     command.getPatientId(),
                     command.getPatientName(),
                     LocalDateTime.now(),
-                    Status.COMPLETED);
+                    Status.NEW);
 
             iAppointment.saveAppointment(appointment);
             return mapper.map(appointment);
